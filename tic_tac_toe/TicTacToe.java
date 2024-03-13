@@ -17,7 +17,6 @@ public class TicTacToe {
 
     public static void main(String[] args) {
         System.out.println("\n\033[1;33mHello,\033[0m \033[1;34mWorld!\033[0m\n");
-//        System.out.println("\033[1m----- Welcome to Tic Tac Toe! -----\033[0m\n");
         delay(500);
         System.out.println("\033[3mPress \033[32mEnter\033[0m \033[3mto begin setup.\033[0m");
         input.nextLine();
