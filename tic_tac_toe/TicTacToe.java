@@ -123,7 +123,11 @@ public class TicTacToe {
         delay(1000);
         System.out.println("\n1..");
         delay(1000);
-        System.out.println("Bhavik's handwriting sucks!\n\n");
+        System.out.println("Bhavik's handwriting sucks!");
+        delay(300);
+        for (int i = 0; i < 50; i++) {
+            System.out.print("\n");
+        }
 
         while (gameController.getGameStatus(game) == GameStatus.IN_PROGRESS) {
             gameController.printBoard(game);
